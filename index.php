@@ -159,18 +159,82 @@
 // $obj = [1,3,5];
 // var_dump((object) $obj);
 
-class Transactions
-{
-    public function __construct(
-        private float $amount,
-        private $desc
-        ){
-            $this->amount= $amount;
-            $this->desc = $desc;
+// class Transactions
+// {
+//     public function __construct(
+//         private float $amount,
+//         private $desc
+//         ){
+//            $this->amount= $amount;
+//             $this->desc = $desc;
+//             echo $amount;
         
 
+//     }
+// }
+
+// $trans = new Transactions (4,'test');
+
+
+// class person{
+//     public $name ,$age;
+
+//     public function __construct($name= "No Name",$age= 22){
+//         $this->name = $name;
+//         $this->age = $age;
+//     }
+
+//     function show() {
+
+//         echo "my name is " . $this->name. " and age is " . $this->age;
+//     }
+
+// }
+// $p1= new person("Ram Kumar",25);
+// $p2= new person("Shyam",26);
+// // $p1->name= "Abhi";
+// // $p1->age= 20;
+// $p1->show();
+// $p2->show();
+
+
+
+// class person{
+//     public $name;
+//     public function __construct($n){
+//         $this->name = $n;
+//     }
+//     function show() {
+//         echo "my name is . $this->name";
+//     }
+// }
+
+
+class employee{
+    public $name;
+    public $age;
+    public $salary;
+
+    function __construct($n,$a,$s){
+        $this->name=$n;
+        $this->age = $a;
+        $this->salary = $s;
+
+    }
+    function info(){
+        echo "<h3>Employee Profile</h3>";
+        echo  "Employee Name :  $this->name";
+        echo "Employee Age :  $this->age";
+        echo "employee Salary :  $this->salary";
     }
 }
+
+class manager extends employee{
+    
+}
+$e1 = new manager("ram", 25,2000);
+
+$e1->info();
 
 ?>
 
