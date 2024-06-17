@@ -11,9 +11,14 @@ fourth
 fivth
 sixth 
 sfsf
+<<<<<<< HEAD
 2025 is comming
 sfdzvvfxzfvfdssfddf
 fgfgbgfhbgfgfg
 dfdrgdhfhf
 ghjghghb
 fgffgfhfht
+=======
+2025 fotter noter addedcls
+202022
+>>>>>>> bug-fix
