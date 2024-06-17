@@ -1,4 +1,12 @@
 i am fix file which will be used to fix the code
+<<<<<<< Updated upstream
 one ore bug ditected and fix
 second bug fixed
 fourth bug fix
+=======
+
+add another marketing message section
+one ore bug ditected and fix
+second bug fixed
+fourth bug fix
+>>>>>>> Stashed changes
