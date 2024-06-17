@@ -1,1 +1,2 @@
 THIS IS FILE2 TEXT
+adding more  content to file 2
